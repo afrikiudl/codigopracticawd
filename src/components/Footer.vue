@@ -1,5 +1,10 @@
 <template>  
-    <b-alert show>Esto es un footer</b-alert>
+    <b-alert show>
+      <b-link href="http://www.graudissenydigitalitec.udl.cat/">Grado Diseño Digital y Tecnologías Creativas</b-link> 
+    ||
+      <b-link href="http://www.udl.cat/">Universitat de Lleida</b-link>.
+
+    </b-alert>
 </template>
 
 <script>

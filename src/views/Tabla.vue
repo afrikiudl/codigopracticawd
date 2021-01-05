@@ -2,10 +2,17 @@
 <div>
 <h1 class="pb-2">
      <icons :icon="['fas', 'star']" /> 
-       Tabla que obtiene datos de una API externa  
+       (Ejemplo)
+     <icons :icon="['fas', 'star']" /> 
+       Tabla que obtiene datos de una API Json externa  
      <icons :icon="['fas', 'award']" /> 
-
    </h1>
+   <p> A continuación se muestra un ejemplo de obtención de datos externos a partir de una 
+      <b-link href='https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&per_page=100&page='>API Json</b-link>
+      <p>
+
+     
+     
 
     <table class="table">
         <thead class="thead-dark">

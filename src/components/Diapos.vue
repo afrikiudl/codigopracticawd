@@ -9,16 +9,16 @@
     img-height="480"
   >
     <b-carousel-slide
-      caption="First slide"
-      img-src="https://picsum.photos/1024/480?random=1/"
+      caption="Alumnos del grado en La Panera" 
+      img-src="../assets/lapanera.jpg"
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="Second Slide"
-      img-src="https://picsum.photos/1024/480?random=2/"
+      caption="Videojuegos y realidad virtual"
+      img-src="../assets/videojuegos.jpg"
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="Third Slide"
-      img-src="https://picsum.photos/1024/480?random=3/"
+      caption="Profesores"
+      img-src="../assets/professors.jpg"
     ></b-carousel-slide>
   </b-carousel>
 </div>

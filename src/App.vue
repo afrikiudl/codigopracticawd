@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="container-fluid">
-    <Menu /> <!-- se añade el menú -->
+      <Menu /> <!-- se añade el menú -->
       <b-breadcrumb :items="items"></b-breadcrumb>
-    <router-view/>
+      <router-view/>
     <Footer />
     </div>
   </div>
@@ -12,7 +12,6 @@
 <script>
 import Menu from './components/Menu'
 import Footer from './components/Footer'
-
 
 export default {
   name: 'App',

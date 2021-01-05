@@ -1,6 +1,13 @@
 <template>
 <div class="container">
-    <h2> Formulario para añadir personas </h2>
+    <h1 class="pb-2">
+     <icons :icon="['fas', 'star']" /> 
+       (Ejemplo)
+     <icons :icon="['fas', 'star']" /> 
+        Formulario para añadir personas 
+    </h1>
+    <p> A continuación se muestra un ejemplo de formulario (CRUD) CREAR, BORRAR, ACTUALIZAR Y ELIMINAR datos </p>
+
         
 <!-- Formulario para añadir personas -->
 
@@ -135,7 +142,6 @@
                 this.personas[persona_id].edad = this.edadActualizar;
             }
         }
-
 
     }
 </script>
