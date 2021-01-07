@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "autor": "Nombre alumno",
+        "autor": "Nombre alumno1",
         "titulo": "Es un título",
         "srcimg": "https://picsum.photos/1024/480?random=1/",
         "alt": "Texto alternativo de la imágen",
