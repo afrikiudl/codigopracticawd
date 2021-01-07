@@ -1,6 +1,6 @@
 <template>
 <div>
-<h1 class="pb-2">
+  <h1 class="pb-2">
      <icons :icon="['fas', 'star']" /> 
        (Ejemplo)
      <icons :icon="['fas', 'star']" /> 
@@ -9,7 +9,7 @@
    </h1>
    <p> A continuación se muestra un ejemplo de obtención de datos externos a partir de una 
       <b-link href='https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&per_page=100&page='>API Json</b-link>
-      <p>
+    <p>
 
      
      
