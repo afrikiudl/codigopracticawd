@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "autor": "Nombre alumno1",
-        "titulo": "Es un título",
+        "titulo": "Es un título de la página",
         "srcimg": "https://picsum.photos/1024/480?random=1/",
         "alt": "Texto alternativo de la imágen",
         "texto": "Instrucciones: Aquí has de poner un texto descriptivo del proyecto. La imágen de cabecera debe tener una resolución de (1024/480 px)",
